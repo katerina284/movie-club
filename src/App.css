@@ -1,0 +1,68 @@
+.App{
+  text-align: center;
+}
+
+.movies-im{
+  width: 150px;
+}
+
+.movie{
+  width: 150px;
+}
+
+.watch{
+  width: 20px;
+  position: absolute;
+  margin-top: 5px;
+  margin-left: 5px;
+  opacity: 0.5;
+}
+
+.car{
+  max-width: 300px;
+}
+
+.overflow{
+  max-height: 200px;
+  overflow-y:scroll;
+}
+
+.accordion-overflow{
+  max-height: 400px;
+  overflow-y:scroll;
+}
+
+::-webkit-scrollbar-thumb{
+  opacity: 0;  
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(54, 53, 53);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track:hover{
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-track{
+  opacity: 0;
+}
+
+
+a:link { text-decoration: none; color: whitesmoke; }
+
+
+a:visited { text-decoration: none; color: whitesmoke; }
+
+
+a:hover { text-decoration: none; color: whitesmoke;}
+
+
+a:active { text-decoration: none; color: whitesmoke;}
+
+
